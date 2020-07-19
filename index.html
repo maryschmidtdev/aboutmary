@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>About Mary Schmidt</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <lang="en"/>
   </head>
 
   <body>
@@ -18,21 +19,23 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
     </header>
 
-  <hr> 
+    <hr> 
 
     <main>
       <section id="home">
       <div class="group">
         <div class="item">
-          <img src="images/mary-in-kitchen.jpg" width: "200px">
+          <img src="images/mary-in-kitchen.jpg" width: 200px alt="image of Mary Schmidt">
         </div>
         <div class="item">
           <h3>Hi, I'm Mary.</h3>
-             <p>Currently I am studing to be a software developer. This is sharp turn from my previous work as a kitchen designer. </p>
-             <p>My kids and I live in St. Paul, Minnesota, and yes, we have our city festival in the dead of winter.</p>
-              <p>I am someone who wants to understand</p>
+             <p>Currently I am studying to be a software developer. This is sharp turn from my previous work as a kitchen designer.</p>
+             <p>My kids and I live in St. Paul, Minnesota, and yes, we have our city festival in the dead of winter. And pre-pandemic we spent time at our many museums and incredible parks in the city. The kids' favorite thing is, playing Minecraft - so I'm learning about gaming along side of coding.</p>
+              <p>Six months ago my life was incredibly different - as was most peoples, this pandemic has brought about a major shift in my career values. Choosing this path was an active decision I made instead of falling into a job or career. This is where I want to be. Our lives are increasinly online and to be a part of creating and shaping that is an exciting prospect.</p>
         </div>
        </div>
       </section>
@@ -42,10 +45,10 @@
           <h3>About Mary</h3>
       <div class="group">
          <div class="about-content">
-          <p class="item">My passion for development is every changing and growing. To say my knowledge is just scratching the surface would be an exaggeration. There is an enormous amount of information to study and continue to study even after I get a job.</p>
-          <p class="item">I hoping to find a job that has a team to work with, I know that I will benefit greatly from a strong team to learn from.</p>
-          <p class="item">Outside of my coding studies, I'm learning how liberation for the most oppressed is liberation for everyone. How do we lift everyone?</p>
-          <p class="item">My ultimate goal is to be able to volunteer my time to  create beautiful and simple to use websites for small businesses so that they can fulrish.</p>
+          <p class="item">My passion for development is ever changing and growing. To say my knowledge is just scratching the surface would be an exaggeration. There is an enormous amount of information to study and continue to study even after I get a job. Even though I'm new to the world of coding I'm not new to seeing racism and misogyny play out in the workplace. I can see myself playing some kind of role in developing and encouraging a more diverse group of people to enter into software development.</p>
+          <p class="item">Finding a team that I can work with to learn from would be an ideal work environment for me. I love working with people and as a team, I played 3 team sports while I was in school. Colaboration brings about creative and innovative solutions to tough problems.</p>
+          <p class="item">Outside of my coding studies, I spend time reading about anything and everything. Following my kids in their passion for graphic novels and space. Keeping up on current events with the newspaper - yes, I still read the physical newspaper, many non-fiction books about a variety of tops from racism, diet culture, sexism, psychology, and now coding. </p>
+          <p class="item">When working with me you can expect me to bring to the table, clear communication, thoughtful questions, and a  desire to bring what's in your head to life on the screen. From the technical aspects, my skills include but not limited to, an understanding of Javascript, HTML, CSS.</p>
         </div>
       </div>
       </div>
@@ -53,8 +56,15 @@
 
       <section id="projects">
       <div class="group">
-        <h3>Projects</h3>
-          <p>Coming Soon</p>
+        <h3>Projects - Coming Soon</h3>
+          <ol>
+            <li>Project Title</li>
+            <li>Description: who is this project designed for, why did I build it, etc.</li>
+            <li>What skills were used to built it</li>
+            <li>Screenshots</li>
+            <li>Link to GitHub repo</li>
+            <li>Link to live working app/project</li>
+          </ol>
       </div>
       </section>
 
@@ -64,11 +74,25 @@
       <div class="group">
         <h3>Contact Mary</h3>
         <ul class="contact group-contact">
-            <li><a href="https://github.com/maryschmidtdev">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/maryschmidtdesign/">LinkedIn</a></li>
-             <li><a href="https://maryschmidtartist.com/">Website</a></li> 
-             <li><a href="https://maryschmidtdev.github.io/blocemailform/">Email</a></li>
+            <li><a href="https://github.com/maryschmidtdev" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/maryschmidtdesign/" target="_blank">LinkedIn</a></li>
+             <li><a href="https://maryschmidtartist.com/" target="_blank">Website</a></li> 
+             <li><a href="mailto:maryschmidt1982@gmail.com">Email Me</a></li>
           </ul>
+
+          <form action="https://formspree.io/mlepoyqa" method="post">
+            <label for="user-name">Name:</label>
+            <input id="user-name" type="text" name="name"></input><br>
+
+            <label for="email">Email:</label>
+            <input id="email" type="text" name="email"></input><br>
+
+            <label for="form-message">Your message:</label>
+            <textarea id="form-message" name="message"></textarea><br>
+
+            <button type="submit">Submit</button>
+
+          </form>
       </div>
       </section>
 
@@ -80,7 +104,7 @@
     
     </footer>
 
-
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
